@@ -1,7 +1,10 @@
 import { Component, Input, inject } from '@angular/core';
+
+import { TasksService } from './tasks.service';
+
 import { TaskComponent } from "./task/task.component";
 import { NewTaskComponent } from './new-task/new-task.component';
-import { TasksService } from './tasks.service';
+
 
 
 @Component({
